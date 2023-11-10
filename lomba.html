@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(#312f38, #3a3742, #45434f);
+        }
+
+        .navbar {
+            width: 85%;
+            margin: auto;
+            padding: 35px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+        }
+
+        img {
+            width: 120px;
+            cursor: pointer;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 20pt;
+        }
+
+        .content {
+            width: 100%;
+            position: absolute;
+            transform: translateY(-50%);
+            top: 50%;
+            text-align: left;
+            color: #d01d1d;
+            left: 5%;
+        }
+
+        .content h1 {
+            font-size: 70px;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+        <div class="banner">
+            <div class="navbar">
+                <img src="IMG_8877.jpg" alt="igs logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+                <div class="content">
+                    <h1>Bulan Bahasa di <br>Ignatius Global School</h1>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
